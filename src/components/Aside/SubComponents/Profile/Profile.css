@@ -1,0 +1,32 @@
+.profileImage{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+.profileAddress{
+    display: flex;
+
+}
+.profileNameAddr{
+    margin-left:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profileNameAddr>h3{
+    margin: 0;
+}
+.profileNameAddr>address{
+    font-size: 14px;
+}
+.profileUnits{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin:25px 0;
+    background-color: rgb(244,245,250);
+    /* ==>>continue from here */
+}
+.profileUnits>div{
+    border:2px solid red;
+}
