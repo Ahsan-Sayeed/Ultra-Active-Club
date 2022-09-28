@@ -1,0 +1,33 @@
+.Card{
+    width: 230px;
+    padding: 14px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.CardBtn{
+ padding: 10px 8px;
+ margin: 10px 0 3px;
+ border-radius: 5px;
+ border:none;
+ background-color: olivedrab;
+ color:white;
+ font-size: 16px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.CardImage{
+    height: 100px;
+    border-radius: 10px;
+}
+
+.CardDesc{
+   font-size: 14px;
+    color: rgb(129, 126, 126);
+}
