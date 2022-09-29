@@ -13,9 +13,3 @@
     border:none;
     border-radius: 8px;
 }
-
-@media only screen and (max-width: 600px){
-    .asideContainer{
-        display: none;
-    }   
-}

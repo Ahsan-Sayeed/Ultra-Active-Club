@@ -1,0 +1,16 @@
+.questionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 100px;
+}
+.questionHeading{
+    text-align: center;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 900px) {
+    .questionContainer{
+        margin:100px 25px;
+    }
+}
