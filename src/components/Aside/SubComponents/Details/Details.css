@@ -1,0 +1,11 @@
+.centerAlign{
+    margin: 0!important;
+}
+.exerciseText{
+    font-weight: 600;
+    font-size: 18px;
+}
+.exerciseTime{
+    font-size: 18px;
+    color: rgb(167, 167, 167);
+}

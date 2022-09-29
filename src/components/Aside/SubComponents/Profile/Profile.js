@@ -14,16 +14,16 @@ const Profile = ({image}) => {
 
             <div className='profileUnits'>
                 <div>
-                   <h3>75 <span>kg</span> </h3>
+                   <h3 className='numbers'>75<span className='unit'>kg</span> </h3>
                     <span>Weight</span>
                 </div>
                 <div>
-                   <h3>75 <span>kg</span> </h3>
-                    <span>Weight</span>
+                   <h3 className='numbers'>6.5<span className='unit'>ft</span> </h3>
+                    <span>Height</span>
                 </div>
                 <div>
-                   <h3>75 <span>kg</span> </h3>
-                    <span>Weight</span>
+                   <h3 className='numbers'>25<span className='unit'>yr</span> </h3>
+                    <span>Age</span>
                 </div>
 
             </div>
