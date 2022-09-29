@@ -1,19 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Card.css';
-import image from '../../Assets/img1.jpg'
+import img from '../../Assets/img1.jpg'
+import { getFromLocalStorage, storeToLocalStorage } from '../../utilities/localStoreage';
 
-const Card = () => {
+const Card = ({title,desc,id,forAge,time,image,setGetTime}) => {
+    const [isAdded,setIsAdded] = useState('');
+
+    const handleClick = (e,time)=>{
+        setIsAdded(e.target.parentElement.id);
+        setGetTime(Number(time.slice(0,2)));
+    }
     return (
-        <div className='Card'>
-            <img src={image} className='CardImage'/>
-            <h3 >Dumble</h3>
-            <p className='CardDesc' style={{ marginTop:'-6px'}}>Amet minim mollit non deserunt
-                ullamco est sit aliqua dolor do
-                amet sint.
-            </p>
-            <span>For Age : <b>20-25</b></span>
-            <span style={{margin:'8px 0'}}>Time required : <b>30s</b></span>
-            <button className='CardBtn'>Add to list</button>
+        <div className='Card' id={id}>
+            <img src={img} className='CardImage'/>
+            <h3 >{title}</h3>
+            <p className='CardDesc' style={{ marginTop:'-6px'}}>{desc}</p>
+            <span>For Age : <b>{forAge}</b></span>
+            <span style={{margin:'8px 0'}}>Time required : <b>{time}</b></span>
+            <button className='CardBtn' 
+                onClick={(e)=>handleClick(e,time)}
+                style={id==isAdded?{backgroundColor:'violet'}:null}
+                >Add to list</button>
         </div>
     );
 };

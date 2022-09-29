@@ -6,14 +6,14 @@ import Break from './SubComponents/Break/Break';
 import Details from './SubComponents/Details/Details';
 import { getFromLocalStorage, storeToLocalStorage } from '../../utilities/localStoreage';
 
-const Aside = () => {
+const Aside = ({getTime}) => {
     const [breakTime,setBreakTime] = useState(getFromLocalStorage('break-time')?getFromLocalStorage('break-time'):'10');
     storeToLocalStorage('break-time',breakTime);
     return (
         <div className='asideContainer'>
              <Profile image={image}/>
               <Break getBreakTime={setBreakTime}/>
-              <Details breakTime={ breakTime.slice(0,2)}/>
+              <Details breakTime={ breakTime.slice(0,2)} getTime={getTime}/>
             <button className='activityBtn'>Activity Completed</button>
         </div>
     );
