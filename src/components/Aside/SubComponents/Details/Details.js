@@ -1,7 +1,7 @@
 import React from 'react';
 import './Details.css';
 
-const Details = () => {
+const Details = ({breakTime}) => {
     return (
         <div>
             <h2>Exercise Details</h2>
@@ -18,7 +18,7 @@ const Details = () => {
                     <p className='exerciseText'>Break time</p>
                 </div>
                 <div className='centerAlign'>
-                    <p className='exerciseTime'>15 seconds</p>
+                    <p className='exerciseTime'>{breakTime} seconds</p>
                 </div>
             </div>
         </div>
