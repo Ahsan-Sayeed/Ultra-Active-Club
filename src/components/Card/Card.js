@@ -11,9 +11,9 @@ const Card = ({title,desc,id,forAge,time,image,setGetTime}) => {
     }
     return (
         <div className='Card' id={id}>
-            <img src={img} className='CardImage'/>
+            <img src={image} className='CardImage'/>
             <h3 >{title}</h3>
-            <p className='CardDesc' style={{ marginTop:'-6px'}}>{desc}</p>
+            <p className='CardDesc' style={{ marginTop:'-6px'}}>{desc.slice(0,100)+"..."}</p>
             <span>For Age : <b>{forAge}</b></span>
             <span style={{margin:'8px 0'}}>Time required : <b>{time}</b></span>
             <button className='CardBtn' 

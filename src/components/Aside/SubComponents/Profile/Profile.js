@@ -1,5 +1,7 @@
 import React from 'react';
 import './Profile.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationPin } from '@fortawesome/free-solid-svg-icons';
 
 const Profile = ({image}) => {
     return (
@@ -8,7 +10,7 @@ const Profile = ({image}) => {
                 <img src={image} className='profileImage' />
                 <div className='profileNameAddr'>
                     <h3 className='profileName'>Zahid hasan</h3>
-                    <address>Sydney, Australia</address>
+                    <address><FontAwesomeIcon icon={faLocationPin}  size="sm" color='rgb(194,204,211)'/> Sydney, Australia</address>
                 </div>
             </div>
 

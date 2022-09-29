@@ -14,12 +14,15 @@
  margin: 10px 0 3px;
  border-radius: 5px;
  border:none;
- background-color: olivedrab;
+ background-color: rgb(1, 166, 37);
  color:white;
  font-size: 16px;
  display: flex;
  justify-content: center;
  align-items: center;
+}
+.CardBtn:hover{
+    background-color: rgba(68, 194, 0, 0.747);
 }
 
 .CardImage{

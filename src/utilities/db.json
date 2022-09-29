@@ -1,50 +1,50 @@
 [
     
     {   "id": 1,
-        "img":"",
-        "title":"Dumble",
-        "desc":"Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+        "img":"https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "title":"Barbell Rack ",
+        "desc":"If you want to uplift your home gym capabilities to enable you to lift heavy free weights without needing a spotting partner, then you must add a power rack to it. The power racks are versatile, they can be used to perform more than a dozen exercises.",
         "forAge":"20-25",
-        "time":"30s"
+        "time":"15s"
     },
     {
         "id": 2,
-        "img":"",
-        "title":"Dumble",
-        "desc":"Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-        "forAge":"20-25",
-        "time":"31s"
+        "img":"https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80",
+        "title":"Lat Pull Down Machine",
+        "desc":"This machine allows you to move a pull up/chin up bar attached to a stack of weights, towards you while sitting down. It's a compound exercise that specifically allows you to work on your lat muscles.",
+        "forAge":"20-30",
+        "time":"30s"
     },
     {
         "id": 3,
-        "img":"",
+        "img":"https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
         "title":"Dumble",
-        "desc":"Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-        "forAge":"20-25",
-        "time":"32s"
+        "desc":"This takes place when you decrease the angle between your forearm and upper arm. Dumbbell curls involve this motion and work the biceps. By turning your palms down with dumbbell curls, you perform reverse curls.",
+        "forAge":"20-30",
+        "time":"20s"
     },
     {
         "id": 4,
-        "img":"",
-        "title":"Dumble",
-        "desc":"Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-        "forAge":"20-25",
-        "time":"33s"
+        "img":"https://www.verywellfit.com/thmb/vj_pWrmC9g8ahhOlSw4hepIenHY=/614x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/VW-Fit-11-best-pull-up-bars-4159462-3b60260f691046d69b720369bcf13735.jpg",
+        "title":"Pull-Up Bars",
+        "desc":"Assisted pullups let you build strength and perfect your movement and body positioning. While these variations may not give you the same strength as regular pullups, you'll still be gaining strength and targeting the same muscles. Plus, you can work on: building grip strength.",
+        "forAge":"16-30",
+        "time":"40s"
     },
     {
         "id": 5,
-        "img":"",
-        "title":"Dumble",
-        "desc":"Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-        "forAge":"20-25",
-        "time":"34s"
+        "img":"https://images.unsplash.com/photo-1598289431512-b97b0917affc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80",
+        "title":"spinning bike",
+        "desc":"Exercise bikes are good for weight loss because they are a really efficient and effective way to burn calories, and cycling is a cardiovascular aerobic activity that has added benefits such as strengthening your heart, lungs and muscles,",
+        "forAge":"18-25",
+        "time":"50s"
     },
     {
         "id": 6,
-        "img":"",
-        "title":"Dumble",
-        "desc":"Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-        "forAge":"20-25",
-        "time":"35s"
+        "img":"https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "title":"rowing machine",
+        "desc":"rowing can improve stamina and overall fitness and strength, including strengthening the heart. It can also boost immune system function, mood, and even provide a calming, meditative effect on the mind due to its repetitive, low-impact movement and sounds.",
+        "forAge":"16-30",
+        "time":"45s"
     }
 ]
