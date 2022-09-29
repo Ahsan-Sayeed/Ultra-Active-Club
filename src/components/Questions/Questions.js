@@ -3,6 +3,7 @@ import './Questions.css';
 
 const Questions = () => {
     return (
+        <div>
         <div className='questionContainer'>
             <h1 className='questionHeading'>Questions</h1>
             <div>
@@ -29,7 +30,7 @@ const Questions = () => {
                         <li><em>Clean up event listeners when the component unmounts.</em></li>
                      </ul>
             </div>
-
+            </div>
         </div>
     );
 };

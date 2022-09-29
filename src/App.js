@@ -11,8 +11,10 @@ function App() {
       <CardContainer setGetTime={setGetTime}/>
       <Aside getTime={getTime}/>
       </div>
-
       <Questions />
+      <footer>
+        <h3>Copyright © 2022</h3>
+      </footer>
     </div>
   );
 }

@@ -3,6 +3,13 @@
   grid-template-columns: 1.5fr 0.5fr;
   background-color: rgb(241,243,249);
 }
+footer{
+  text-align: center;
+  border: 2px solid transparent;
+  padding: 20px 0;
+  background-color: antiquewhite;
+  color: rgb(111, 111, 111);
+}
 @media only screen and (max-width: 600px){
   .container{
       display: flex;
