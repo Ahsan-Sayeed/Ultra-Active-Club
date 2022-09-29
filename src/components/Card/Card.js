@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Card.css';
 import img from '../../Assets/img1.jpg'
-import { getFromLocalStorage, storeToLocalStorage } from '../../utilities/localStoreage';
 
 const Card = ({title,desc,id,forAge,time,image,setGetTime}) => {
     const [isAdded,setIsAdded] = useState('');
@@ -20,7 +19,7 @@ const Card = ({title,desc,id,forAge,time,image,setGetTime}) => {
             <button className='CardBtn' 
                 onClick={(e)=>handleClick(e,time)}
                 style={id==isAdded?{backgroundColor:'violet'}:null}
-                >Add to list</button>
+                >{id==isAdded?'Added':'Add to list'}</button>
         </div>
     );
 };
